@@ -8,7 +8,6 @@
 
 package lession1.lession171229;
 
-
 /**
  * Description: <br/>
  * Date: 2017年12月29日 下午6:56:14 <br/>
@@ -17,8 +16,8 @@ package lession1.lession171229;
  * @version
  * @see
  */
-public abstract class teacher extends work4 {
-    public void gongzuo() {
+public class teacher extends work4 {
+    public void human() {
         System.out.println("这个人的工作是教学");
     }
 
