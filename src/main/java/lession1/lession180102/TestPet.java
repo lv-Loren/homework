@@ -16,10 +16,7 @@ package lession1.lession180102;
  * @version
  * @see
  */
-public class TestPet extends Pet {
-    public void eat() {
-        System.out.println(this.getName() + "吃" + this.getFoot());
-    }
+public class TestPet {
 
     public static void main(String[] args) {
 
