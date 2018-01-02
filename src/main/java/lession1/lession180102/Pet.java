@@ -30,7 +30,7 @@ package lession1.lession180102;
  * 子类：的士 Taxi，跑车 Roadster；<br/>
  * 多态的方法（manned）：的士载客，跑车不载客<br/>
  */
-public class Pet {
+public abstract class Pet {
     private String name;
 
     private String foot;
@@ -51,7 +51,5 @@ public class Pet {
         this.foot = foot;
     }
 
-    public void eat() {
-        System.out.println(this.getName() + "吃" + this.getFoot());
-    }
+    public abstract void eat();
 }

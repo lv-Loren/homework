@@ -21,4 +21,8 @@ public class Dog extends Pet {
         setName(name);
         setFoot(foot);
     }
+
+    public void eat() {
+        System.out.println(this.getName() + "吃" + this.getFoot());
+    }
 }

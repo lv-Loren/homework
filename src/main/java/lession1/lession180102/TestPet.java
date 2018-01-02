@@ -8,7 +8,6 @@
 
 package lession1.lession180102;
 
-
 /**
  * Description: <br/>
  * Date: 2018年1月2日 下午2:29:22 <br/>
@@ -18,6 +17,9 @@ package lession1.lession180102;
  * @see
  */
 public class TestPet extends Pet {
+    public void eat() {
+        System.out.println(this.getName() + "吃" + this.getFoot());
+    }
 
     public static void main(String[] args) {
 

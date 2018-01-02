@@ -1,13 +1,12 @@
 /**
  * Project Name:dt59homework
- * File Name:Cat.java
+ * File Name:Dog.java
  * Package Name:lession1.lession180102
- * Date:2018年1月2日下午5:17:01
+ * Date:2018年1月2日下午5:16:14
  * Copyright (c) 2018, bluemobi All Rights Reserved.
  */
 
 package lession1.lession180102;
-
 
 /**
  * Description: <br/>
@@ -21,5 +20,9 @@ public class Cat extends Pet {
     public Cat(String name, String foot) {
         setName(name);
         setFoot(foot);
+    }
+
+    public void eat() {
+        System.out.println(this.getName() + "吃" + this.getFoot());
     }
 }
